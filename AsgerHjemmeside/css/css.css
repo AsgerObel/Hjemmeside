@@ -1,0 +1,345 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Define variables in the :root */
+
+
+body{
+ background-image: url(/images/aarhus2.jpeg);
+ background-repeat: no-repeat;
+ background-size: 80%;
+ background-position-x: center;
+ background-position-y: 25%;
+
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif
+ }
+
+
+.section{
+background-color: white;
+display: flex;
+justify-content: space-between;
+margin-top: 40%;
+
+}
+
+.section img{
+  height: 550px;
+  
+}
+
+.section h3{
+color:yellowgreen;
+margin-left:70px;
+margin-top: auto;
+font-size: 30px;
+
+}
+
+.section p{
+color: black;
+padding-left: 5%;
+white-space: pre-line;
+
+
+}
+
+.header{
+
+position: fixed; 
+top: 0;
+left: 0;
+width: 100%;
+padding: 0px 20px;
+background: transparent;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+
+
+}
+
+.logo
+{
+  height: 10;
+  width: 100px;
+  padding-top: 0%;
+
+}
+
+
+.navbar a {
+
+font-size: 18px;
+color: black;
+font-weight: 500;
+text-decoration: none;
+margin-left: 30px;
+
+}
+
+h1{
+text-align: center;
+margin: 2%;
+font-family: "Dancing Script", cursive;
+font-size: 38px;
+font-weight: 700;
+
+}
+
+h2{
+text-align: center;
+margin: 100px;
+word-spacing: -1px;
+margin-left: 10%;
+
+}
+
+
+.Kultur
+{
+margin-left: 70%;
+margin-top: 10%;
+width: 10%;
+padding: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+font-weight: 400;
+}
+
+.Madsteder{
+margin-right: 70%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.p3
+{
+
+margin-top: -100px;
+margin-left: 37%;
+padding: 10px;
+width: 400px;
+height: 80px;
+text-align: center;
+
+}
+
+.p4
+{
+
+margin-top: -30px;
+margin-left: 37%;
+padding: 10px;
+width: 400px;
+height: 80px;
+text-align: center;
+font-size: 10px;
+color: rgb(112, 128, 144);
+
+}
+
+
+.p5
+{
+
+margin-top: -30px;
+margin-left: 37%;
+padding: 10px;
+width: 400px;
+height: 80px;
+text-align: center;
+font-size: 9px;
+color: rgb(112, 128, 144);
+
+}
+
+/* Kultur side 2 */ 
+
+.section2{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40%;
+  
+  }
+  
+  #billede{
+height: 600px;
+display: flex;
+margin-top: 5%;
+    
+  }
+  
+  .sectionh32{
+  color:yellowgreen;
+  margin: left 20px;
+ margin: auto;
+  font-size: 30px;
+  padding: 30px;
+  
+  }
+  
+  .p32{
+  color:black;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 0px;
+  white-space: pre-line;
+  
+  }
+
+
+
+  .section3{
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30%;
+    
+    }
+    
+    #billede2{
+  height: 365px;
+  display: flex;
+  margin-top: 5%;
+  
+      
+    }
+    
+    .sectionh33{
+    color: rgb(255,127,80);
+    font-size: 30px;
+    position: absolute; left: 100px;
+   
+    
+    }
+    
+    .p33{
+  color:black;
+font-size: 16px;
+padding: 0px;
+white-space: pre-line;
+  
+    
+    }
+
+
+    .section4{
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40%;
+    
+    }
+    
+    #billede3{
+  height: 400px;
+  display: flex;
+  margin-top: 150px;
+ position: absolute; right: 50px;
+  
+      
+    }
+    
+    .sectionh35{
+    font-size: 30px;
+   position: absolute; left: 35px;
+   margin-top: 100px;
+  color: rgb(0, 21, 124);
+   
+    
+    }
+    
+    .p35{ 
+      color: black;
+      font-size: 16px;
+      position: absolute; left: 5px;
+    }
+
+
+
+    .container {
+      position: absolute; 
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .content {
+      width: 360px;
+      height: 40px;
+      box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+      border-radius: 60px;
+      overflow: hidden;
+    }
+    
+    .subscription {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .subscription .add-email{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+      padding: 0 20px;
+    }
+
+
+
+
+
+    form {
+      border: 4px solid #f1f1f1;
+    }
+    
+  
+    .container2 {
+      padding: 30px;
+      background-color: #f1f1f1;
+    }
+    
+    /* Style the input elements and the submit button */
+    input[type=text], input[type=submit] {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    /* Add margins to the checkbox */
+    input[type=checkbox] {
+      margin-top: 8px;
+    }
+    
+    /* Style the submit button */
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      border: none;
+    }
+    
+    input[type=submit]:hover {
+      opacity: 0.8;
+    }
+  
